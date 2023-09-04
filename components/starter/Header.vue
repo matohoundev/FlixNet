@@ -3,7 +3,7 @@
     <div>
       <nuxt-link
         to="/"
-        class="text-xl font-bold hover:text-gray-300 transition duration-300"
+        class="text-xl font-bold hover:text-rose-900 transition duration-300"
       >
         Flixnet
       </nuxt-link>
@@ -11,17 +11,17 @@
     <nav class="space-x-12">
       <nuxt-link
         to="/"
-        class="hover:text-gray-300 font-bold transition duration-300"
+        class="hover:text-rose-700 font-bold transition duration-300"
         >Accueil</nuxt-link
       >
       <nuxt-link
         to="/movies"
-        class="hover:text-gray-300 font-bold transition duration-300"
+        class="hover:text-rose-700 font-bold transition duration-300"
         >Films</nuxt-link
       >
       <nuxt-link
         to="/favorites"
-        class="hover:text-gray-300 font-bold transition duration-300"
+        class="hover:text-rose-700 font-bold transition duration-300"
         >Favoris</nuxt-link
       >
     </nav>
