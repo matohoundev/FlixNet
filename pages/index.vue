@@ -1,5 +1,5 @@
 <template>
   <div>
-    <p>Start</p>
+    <BannerMovie />
   </div>
 </template>
