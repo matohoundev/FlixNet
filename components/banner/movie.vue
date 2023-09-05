@@ -3,9 +3,9 @@
     <div
       class="w-full h-[80vh] absolute flex items-center justify-center md:justify-normal px-12 md:px-32"
     >
-      <p class="z-10 text-xl md:text-6xl text-white font-extrabold">
+      <h1 class="z-10 text-xl md:text-6xl text-white font-extrabold">
         Spider-Man : Across the Spider-Verse
-      </p>
+      </h1>
     </div>
     <img
       src="@/assets/img/spider.jpg"
