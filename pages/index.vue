@@ -22,6 +22,7 @@ const getPopularMovies = () => {
         <CardMovie
           v-for="movie in movies"
           :key="movie.id"
+          :id="movie.id"
           :imgMovies="movie.poster_path"
         />
       </div>

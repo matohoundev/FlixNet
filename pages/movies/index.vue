@@ -33,6 +33,7 @@ const typeSelected = (id: number) => {
       <CardMovie
         v-for="movie in movies"
         :key="movie.id"
+        :id="movie.id"
         :img-movies="movie.poster_path"
       />
     </div>
