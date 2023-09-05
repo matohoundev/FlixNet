@@ -1,5 +1,7 @@
 <template>
-  <header class="fixed w-full z-20 text-white p-4 space-x-20 flex items-center">
+  <header
+    class="fixed w-full z-20 flex items-center text-white p-4 sm:space-x-20"
+  >
     <div>
       <nuxt-link
         to="/"
@@ -8,20 +10,22 @@
         Flixnet
       </nuxt-link>
     </div>
-    <nav class="space-x-12">
+    <nav
+      class="w-full flex sm:flex-none justify-end sm:justify-normal space-x-12"
+    >
       <nuxt-link
         to="/"
-        class="hover:text-rose-700 font-bold transition duration-300"
+        class="hover:text-rose-700 font-bold transition duration-300 text-sm sm:text-base"
         >Accueil</nuxt-link
       >
       <nuxt-link
         to="/movies"
-        class="hover:text-rose-700 font-bold transition duration-300"
+        class="hover:text-rose-700 font-bold transition duration-300 text-sms m:text-base"
         >Films</nuxt-link
       >
       <nuxt-link
         to="/favorites"
-        class="hover:text-rose-700 font-bold transition duration-300"
+        class="hover:text-rose-700 font-bold transition duration-300 text-sm sm:text-base"
         >Favoris</nuxt-link
       >
     </nav>
